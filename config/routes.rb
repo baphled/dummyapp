@@ -1,5 +1,5 @@
 Dummyapp::Application.routes.draw do
-  devise_for :users, :class_name => 'Foo::User'
+  devise_for :users, :class_name => 'QuikCV::User'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
